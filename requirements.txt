@@ -1,0 +1,7 @@
+PyInstaller==3.0
+BeautifulSoup
+six
+coverage
+nose2
+cov-core
+python-coveralls
