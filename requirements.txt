@@ -1,5 +1,6 @@
 PyInstaller==3.0
 BeautifulSoup
+pygame
 six
 coverage
 nose2
