@@ -1,0 +1,19 @@
+language:  python
+python:
+  - "2.7"
+virtualenf:
+  system_site_packages: true
+before_install:  
+  - "sudo apt-get update"
+  - "sudo apt-get install python-dev"
+install:  
+  - "pip install -r requirements.txt"
+script:
+  - "ls -la"
+  - "pwd"
+  - "nose2 -v --with-coverage --coverage-config tests/coveragerc"
+notifications:
+  email: 
+    - livysdad27@gmail.com
+after_script:
+  - coveralls
