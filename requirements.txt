@@ -1,7 +1,4 @@
-PyInstaller==3.0
-BeautifulSoup
-pygame
-six
+PyInstaller
 coverage
 nose2
 cov-core
