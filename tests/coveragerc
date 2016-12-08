@@ -1,0 +1,9 @@
+[report]
+omit = 
+  */tests/*
+  */sge/*
+  */xsge_gui/*
+  */xsge_lighting/*
+  */xsge_path/*
+  */sge_physics/*
+  */xsge_tmx/*
