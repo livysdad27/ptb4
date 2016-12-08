@@ -8,7 +8,7 @@ install:
 script:
   - "ls -la"
   - "pwd"
-  - "nose2 -v --with-coverage"
+  - "nose2 -v --with-coverage --coverage-config tests/coveragerc"
 notifications:
   email: 
     - livysdad27@gmail.com
