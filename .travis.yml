@@ -1,7 +1,7 @@
 language:  python
 python:
-  - "2.7"
-virtualenf:
+  - "3.5"
+virtualenv:
   system_site_packages: true
 before_install:  
   - "sudo apt-get update"
